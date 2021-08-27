@@ -5,28 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylesMiranda.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Style+Script&display=swap" rel="stylesheet">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body class="fondo">
-    <header>
-      <nav class="menu">
-        <a href="indexMiranda.html">HOME</a>
-        <a href="infoMiranda.html">INFO</a>
-        <a href="clasesMiranda.html">CLASES</a>
-        <a href="inscripcionesMiranda.html">INSCRIPCIONES</a>
-        <a href="contactoMiranda.html">CONTACTO</a>
-      </nav>
-      <div class="titulo">
-        <h1>ESPACIO YOGA</h1>
+  <body>
+    <header class="header" >
+      <div class="header__menu">
+        <nav class="header__menu">
+          <a class="header__link" href="indexMiranda.html">HOME</a>
+          <a class="header__link" href="infoMiranda.html">INFO</a>
+          <a class="header__link"  href="clasesMiranda.html">CLASES</a>
+          <a class="header__link" href="inscripcionesMiranda.html">INSCRIPCIONES </a>
+          <a class="header__link" href="contactoMiranda.html">CONTACTO</a>
+        </nav></div>
+        <div class="dropdown d-md-none" >
+          <a class="btn btn-secondary dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          MENU
+          </a>
+        
+          <ul class="dropdown-menu"  aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item"href="indexMiranda.html">HOME</a></li>
+            <li><a class="dropdown-item" href="infoMiranda.html">INFO</a></li>
+            <li><a class="dropdown-item"  href="clasesMiranda.html">CLASES</a></li>
+            <li><a class="dropdown-item" href="inscripcionesMiranda.html">INSCRIPCIONES </a></li>
+            <li><a class="dropdown-item" href="contactoMiranda.html">CONTACTO</a></li>
+          </ul>
+        </div>
+          <h1 class="header__titulo" >ESPACIO YOGA!</h1>
+        </div>
       </div>
     </header>
 <br>
     <section >
-      <h3 class="titulo">CLASES</h3>
+      <h3>CLASES</h3>
       
 <table border="1px solid black" class="rellenoTablas">
         <tr>
@@ -68,8 +83,8 @@
       </table>
  
 <br>
-<h3 class="titulo">TIPOS DE YOGA</h3>
-<section class="wrap">
+<h3 >TIPOS DE YOGA</h3>
+<section>
   <article>Tipo de yoga</article> 
   <div >Hatha Yoga</div>
   <div >Kundalini</div>
@@ -94,12 +109,14 @@
   <article>Recomendaciones</article>
 
 
-  <div class="recomendaciones" ><ol> <li>Tomar agua durante la práctica</li>
+  <div ><ol> <li>Tomar agua durante la práctica</li>
     <li>Aceptar los límites del cuerpo</li>
     <li>Descansar</li></ol></div>
 </div>
 <div >
 
 </section>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
 </html>
