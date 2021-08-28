@@ -12,9 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Style+Script&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
+  <body class="body">
     <header class="header" >
-      <div class="header__menu">
+      <div class="header__menu d-none d-md-flex
+      justify-content-md-center
+      justify-content-lg-end">
         <nav class="header__menu">
           <a class="header__link" href="indexMiranda.html">HOME</a>
           <a class="header__link" href="infoMiranda.html">INFO</a>
@@ -41,11 +43,11 @@
     </header>
 <br>
     <section >
-      <h3>CLASES</h3>
-      
-<table border="1px solid black" class="rellenoTablas">
-        <tr>
-          <td>Días y Horarios:</td>
+      <h3 class="subtitle">CLASES</h3>
+      <div class="tabla1">
+<table border="1px solid black" class="tabla">
+        <tr >
+          <td border="1px solid black">Días y Horarios:</td>
           <td>Lunes</td>
           <td>Martes</td>
           <td>Miércoles</td>
@@ -80,15 +82,16 @@
           <td>Sede Centro</td>
           <td></td>
         </tr>
-      </table>
+      </table></div>
  
 <br>
-<h3 >TIPOS DE YOGA</h3>
-<section>
-  <article>Tipo de yoga</article> 
-  <div >Hatha Yoga</div>
-  <div >Kundalini</div>
-  <article>Especificaciones</article> 
+<h3 class="subtitle" >TIPOS DE YOGA</h3>
+<section class="section1 container wrap">
+  <article >Tipo de yoga </article>
+ <div> Hatha Yoga</div>
+  <div>
+  Kundalini</div>
+  <article>Especificaciones </article>
   <div > <ul><li>Respiración</li>
     <li>Postura</li>
     <li>Fuerza</li>
@@ -109,7 +112,7 @@
   <article>Recomendaciones</article>
 
 
-  <div ><ol> <li>Tomar agua durante la práctica</li>
+  <div class="wrap__recomendaciones"><ol> <li>Tomar agua durante la práctica</li>
     <li>Aceptar los límites del cuerpo</li>
     <li>Descansar</li></ol></div>
 </div>

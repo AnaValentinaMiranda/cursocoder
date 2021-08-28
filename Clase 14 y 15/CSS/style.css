@@ -4,19 +4,22 @@
 
 .header {
   background-color: #a654f3; }
-  .header__menu {
-    align-items: flex-end; }
   .header__link {
     text-decoration: none;
     color: #ede5f5;
     padding: 10px;
-    align-items: flex-end;
-    text-align: end; }
+    transition: 1s; }
   .header__titulo {
     color: #ede5f5;
     justify-content: center;
     font-size: xx-large;
     text-align: center; }
+
+a:hover {
+  background-image: radial-gradient(#ee82fc, #fcf482); }
+
+.header a:hover {
+  color: #67037a; }
 
 .footer {
   border: solid #000; }
@@ -25,10 +28,11 @@
     text-align: center; }
 
 .main__subtitulo {
-  color: #5f5b5b; }
+  color: #5a48f8; }
 
 .section1 {
-  background-color: #ede5f5; }
+  background-color: #ede5f5;
+  background: radial-gradient(#fcf482, #ee82fc); }
   .section1__texto {
     font-size: xx-large;
     text-align: justify;
@@ -42,13 +46,7 @@
   padding: 0; }
 
 .main {
-  background-color: #ede5f5;
-  display: flex;
-  flex-direction: column; }
-  .main__article {
-    display: flex; }
-  .main__div {
-    display: flex; }
+  background-color: #ede5f5; }
   .main__img {
     align-content: flex-end;
     border-radius: 2rem; }
@@ -58,11 +56,66 @@
   .main__texto {
     font-family: cursive;
     font-size: large;
-    display: flex;
+    align-items: center;
     margin: 0;
-    padding: 0;
-    justify-content: flex-start;
-    align-content: flex-start; }
+    padding: 0; }
   .main__pie {
-    display: flex;
     text-align: center; }
+
+.body {
+  background: #ede5f5; }
+
+.tabla {
+  background: radial-gradient(#ee82fc, #fcf482);
+  font-size: medium;
+  color: grey; }
+
+.subtitle {
+  text-decoration: underline;
+  font-family: cursive;
+  text-align: center; }
+
+.section1 {
+  background: radial-gradient(#fcf482, #ee82fc); }
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
+  padding: 40px;
+  height: auto;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 138, 231, 0.5);
+  border-radius: 10px;
+  border: 1px solid #000; }
+  .wrap__recomendaciones {
+    grid-column: 2/4;
+    text-align: center; }
+
+div ol li {
+  list-style: none; }
+
+.body {
+  background: #ede5f5; }
+
+.form {
+  border: #67037a solid; }
+
+.boton {
+  background-image: radial-gradient(#ee82fc, #fcf482); }
+
+input:focus {
+  width: 200px;
+  font-size: 24px; }
+
+.body {
+  background: #ede5f5; }
+
+.form1 {
+  background: radial-gradient(#fcf482, #ee82fc);
+  border: #67037a solid; }
+
+.boton {
+  background-image: radial-gradient(#ee82fc, #fcf482); }
