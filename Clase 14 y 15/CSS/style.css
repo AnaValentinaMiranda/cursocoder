@@ -24,6 +24,9 @@
     font-size: x-small;
     text-align: center; }
 
+.main__subtitulo {
+  color: #5f5b5b; }
+
 .section1 {
   background-color: #ede5f5; }
   .section1__texto {

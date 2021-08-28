@@ -1,0 +1,9 @@
+$texto: large;
+
+.main__subtitulo {
+  @if $texto == large {
+    color: rgb(90, 72, 248);
+  } @else {
+    color: rgb(0, 0, 0);
+  }
+}
