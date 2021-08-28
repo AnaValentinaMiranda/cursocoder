@@ -41,15 +41,11 @@
 .main {
   background-color: #ede5f5;
   display: flex;
-  flex-direction: column;
-  /*
-  &__article {
-    display: flex;
-  }
-  &__div {
-    display: flex;
-  }
-*/ }
+  flex-direction: column; }
+  .main__article {
+    display: flex; }
+  .main__div {
+    display: flex; }
   .main__img {
     align-content: flex-end;
     border-radius: 2rem; }
@@ -58,6 +54,12 @@
     font-size: x-large; }
   .main__texto {
     font-family: cursive;
-    font-size: large; }
+    font-size: large;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-content: flex-start; }
   .main__pie {
-    display: flex; }
+    display: flex;
+    text-align: center; }

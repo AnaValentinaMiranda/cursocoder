@@ -7,14 +7,13 @@
   display: flex;
   flex-direction: column;
 
-  /*
   &__article {
     display: flex;
   }
   &__div {
     display: flex;
   }
-*/
+
   &__img {
     align-content: flex-end;
     border-radius: 2rem;
@@ -26,8 +25,14 @@
   &__texto {
     font-family: cursive;
     font-size: large;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-content: flex-start;
   }
   &__pie {
     display: flex;
+    text-align: center;
   }
 }
