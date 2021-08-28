@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: $color-body;
+  display: flex;
+  flex-direction: column;
+
+  /*
+  &__article {
+    display: flex;
+  }
+  &__div {
+    display: flex;
+  }
+*/
+  &__img {
+    align-content: flex-end;
+    border-radius: 2rem;
+  }
+  &__subtitulo {
+    text-decoration: underline;
+    font-size: x-large;
+  }
+  &__texto {
+    font-family: cursive;
+    font-size: large;
+  }
+  &__pie {
+    display: flex;
+  }
+}

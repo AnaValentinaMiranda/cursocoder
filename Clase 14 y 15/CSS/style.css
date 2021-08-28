@@ -1,34 +1,63 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 .header {
-  background-color: #af65f5; }
+  background-color: #a654f3; }
   .header__menu {
-    justify-content: flex-end; }
+    align-items: flex-end; }
   .header__link {
     text-decoration: none;
     color: #ede5f5;
-    padding: 10px; }
+    padding: 10px;
+    align-items: flex-end;
+    text-align: end; }
   .header__titulo {
     color: #ede5f5;
     justify-content: center;
     font-size: xx-large;
     text-align: center; }
+
+.footer {
+  border: solid #000; }
+  .footer__texto {
+    font-size: x-small;
+    text-align: center; }
+
+.section1 {
+  background-color: #ede5f5; }
+  .section1__texto {
+    font-size: xx-large;
+    text-align: justify;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+  .section1__img {
+    border-radius: 2rem; }
 
 * {
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ede5f5; }
+  padding: 0; }
 
-.header {
-  background-color: #af65f5; }
-  .header__menu {
+.main {
+  background-color: #ede5f5;
+  display: flex;
+  flex-direction: column;
+  /*
+  &__article {
     display: flex;
-    justify-content: flex-end; }
-  .header__link {
-    text-decoration: none;
-    color: #ede5f5;
-    padding: 10px; }
-  .header__titulo {
-    color: #ede5f5;
-    justify-content: center;
-    font-size: xx-large;
-    text-align: center; }
+  }
+  &__div {
+    display: flex;
+  }
+*/ }
+  .main__img {
+    align-content: flex-end;
+    border-radius: 2rem; }
+  .main__subtitulo {
+    text-decoration: underline;
+    font-size: x-large; }
+  .main__texto {
+    font-family: cursive;
+    font-size: large; }
+  .main__pie {
+    display: flex; }
